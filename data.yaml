@@ -1,0 +1,10 @@
+# Konfiguracja zbioru danych RDD
+train: RDD_SPLIT/train/images
+val: RDD_SPLIT/val/images
+test: RDD_SPLIT/test/images
+
+# Liczba klas
+nc: 5
+
+# Nazwy klas
+names: ['longitudinal crack', 'transverse crack', 'alligator crack', 'other corruption', 'Pothole']
